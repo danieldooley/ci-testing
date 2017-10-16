@@ -1,5 +1,9 @@
 script:
-  - echo "Hello World"
+- echo "Hello World"
 
 after_success:
-  - ./sit_build.sh
+- ./sit_build.sh
+
+env:
+  global:
+    secure: Qn2YKi36YXuaonBI0iOySvMHCP30yJUA8wDRsOj4/OGUscVfA3RJ0a42AteB4bdsZe6t4cqBk/jlMbgUbJmamiKTLGjDBqwjBU1kZzVPM9wcsKqpfFpyEM3t1FuV9bGu6PYArLu4cyXswiQrgjyIRiao3BwotY94F4BaxYMtPQz0ZuYav1euRaSCF2qf+FZ/TkiPMS/ARQ6xVqNBpqFxhS82/JJsx2kHheOKHtAG0nsjJkXk1h/uUuJwUGYEW+AJbYMXTpA58BvzA/ZFLj9CV3T73hBnvwKkOk2eadzdQ/HtWr0jdoo4tNMlKX7MKdPwAYaCFiqFhO+knY6Zb5x6j5OdU9Wr1kh6NRfTtcdVWGmWZ+4LgonI6zRa17HXLRdtnSBErJeG7G9NrxQXM97hSI9hYKI8pA2ILexB+I6umlAy2SCPIMwomy1gVyZ+LKk04fPk4h627q6JmEuyU04pcGsNrmhelGvhebrrW38QRrzeUJeufWfaxOJOzKkyy72zUtSmSWa0ucl+MUggmKbqz1MPahuMndbUME8dL5MRslPM07MY95oruMKpT+qWZp+6mB2jzpjWYzs2ETSnyXLOypjdrd5SBfjqa9wKz9vFaiKXuuuWx6VCENPYVThUP/Duoz+GVyna0uZO/nYF2RRfcnuS1giYxVrIub/jzMgDBa0=
