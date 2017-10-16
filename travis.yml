@@ -1,0 +1,7 @@
+language: go
+
+script:
+  - echo "Hello World"
+
+after_success:
+  - ./sit_build.sh
