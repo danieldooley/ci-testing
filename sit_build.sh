@@ -1,6 +1,6 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
-if ["$TRAVIS_BRANCH" == "master"]
+if [[ "$TRAVIS_BRANCH" == "master" ]]
 then
     echo 'Triggering SIT Build'
 
