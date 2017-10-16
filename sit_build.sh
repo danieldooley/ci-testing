@@ -13,4 +13,4 @@ curl -s -X POST \
    -H "Travis-API-Version: 3" \
    -H "Authorization: token $TRAVIS_API_TOKEN" \
    -d "$body" \
-   https://api.travis-ci.com/GeoNet/sit/requests
+   https://api.travis-ci.com/repo/GeoNet%2Fsit/requests
