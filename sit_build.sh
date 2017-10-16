@@ -2,6 +2,8 @@
 
 echo "Triggering SIT Build"
 
+export
+
 body='{
 "request": {
 "branch":"master"
